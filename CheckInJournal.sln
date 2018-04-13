@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckInJournal.WebAPI", "CheckInJournal\CheckInJournal.WebAPI.csproj", "{08EE2312-ED96-4A45-9245-223B5DE12FDE}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CheckInJournal.AngularJS", "..\..\..\..\Desktop\CheckInJournal.AngularJS\", "{33832294-A9FF-406E-BBB0-9D142791262B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62313"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\CheckInJournal.AngularJS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62313\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62313"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\CheckInJournal.AngularJS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62313\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62313"
+		SlnRelativePath = "..\..\..\..\Desktop\CheckInJournal.AngularJS\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08EE2312-ED96-4A45-9245-223B5DE12FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EE2312-ED96-4A45-9245-223B5DE12FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EE2312-ED96-4A45-9245-223B5DE12FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EE2312-ED96-4A45-9245-223B5DE12FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33832294-A9FF-406E-BBB0-9D142791262B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33832294-A9FF-406E-BBB0-9D142791262B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33832294-A9FF-406E-BBB0-9D142791262B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{33832294-A9FF-406E-BBB0-9D142791262B}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		LessCompiler = 33832294-a9ff-406e-bbb0-9d142791262b
+	EndGlobalSection
+EndGlobal
